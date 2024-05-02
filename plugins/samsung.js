@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = './STAR.jpg'
+let pp = './XLICON.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -39,11 +39,11 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 
   ཌ|━━🤖 _BOT STATUS:_🤖━━|ད
-  ⚀------- *SAMSUNG-MENU* ------⚀
+  ⚀------- *IPHONE-MENU* ------⚀
 
-┌─ 🇰🇷📱 `MADE BY EXCEL` 🇰🇷📱
-| ❁✓  *Creator:* EXCEL
-| 🤖  *Bot Name:* STAR-MD-V2
+┌─𐂅  *MADE BY EXCEL*  𐂅
+| ❁✓  *Creator:* 𝙴𝚇𝙲𝙴𝙻
+| 🤖  *Bot Name:* STAR-V2
 | 💻  *Host:* Linux Lair
 | 📣  *Prefix:* ${usedPrefix} 
 | 🕓  *Uptime:* ${uptime}
@@ -59,7 +59,7 @@ let str = `
 ┌─𐂅「 *👤USER* 」
 | 👾  *User Tag:* ${taguser} 
 | 😇  *Name:* ${name} 
-| ✰  *Master Mind:* Excel
+| ✰  *Master Mind:* 𝙴𝚇𝙲𝙴𝙻
 | 💎  *Diamonds:* -9999
 | 🏆  *Rank:* ${role}
 | 🎮  *XP:* ${exp} 
@@ -549,7 +549,7 @@ let str = `
 ┌─➢『 *_conversion_* 』❖
 ┃❏*convert
 ╰─────────────────➢
-©𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸`
+XLICON-𝙼𝙳-𝚅𝟸 𝙱𝚈 AB AND SALMAN`
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
@@ -558,7 +558,7 @@ let str = `
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['smenu', 'android'] 
+handler.command = ['menu1', 'imenu'] 
 
 export default handler
 function clockString(ms) {
