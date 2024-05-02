@@ -7,12 +7,12 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['234802519696', 'STAR-MD', true],
-  ['23233466259', 'vendetta', true], 
+  ['234704356', 'STAR-MD', true],
+  ['23233436', 'Excel✔️', true], 
   [''] 
 ] //Number of owners
 
-//global.pairingNumber = "23233466259" //put your bot number here
+//global.pairingNumber = "2347045035241" //put your bot number here
 
 global.mods = ['2347045035241','2348021779696'] 
 global.prems = ['2347045035241', '2348021779696', '2347045038687']
@@ -54,11 +54,11 @@ global.botname = 'sᴛᴀʀ-ᴍᴅ-ᴠ2'
 global.premium = 'true'
 global.packname = 'sᴛᴀʀ┃ᴮᴼᵀ' 
 global.author = '@Excel' 
-global.menuvid = 'https://i.imgur.com/NtEhT2w.mp4'
-global.Channel = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m ' 
+global.menuvid = ''
+global.Channel = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X' 
 global.dygp = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
-global.Channel2 = 'https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m'
+global.Channel2 = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X'
 global.Wa = 'https://wa.me/2347045035241'
 global.fglog = 'STAR.jpg' 
 global.thumb = fs.readFileSync('./STAR.jpg')
