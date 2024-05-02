@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = './STAR.jpg'
+let pp = './Assets/STAR-V2.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -37,38 +37,38 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-
-┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Creator:* Excel Amadi
-┃ 🤡  *Bot Name:* STAR-MD-V2
-┃ 💻  *Host:* Linux Lair
+╭────≪丂ㄒ卂尺≫───────╮
+╽ 🤖 _BOT STATUS:_🤖
+┃ 🏮  *Founder:* 𝙴𝚇𝙲𝙴𝙻
+┃ 🤡  *Bot Name:* ${botname} 
+┃ 💻  *Host:* 𝙻𝙸𝙽𝚄𝚇 𝙻𝙰𝙸𝚁
 ┃ 📣  *Prefix:* ${usedPrefix} 
 ┃ 🕓  *Uptime:* ${uptime}
 ┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
 ┃ 📚  *Total Users:* ${totaluser} 
-╰───────────────❖
+╰───────────────⍟
 
 ┏━━⏰ _Today's Sauce!_ ⏰━┓
 ┃ 📆  *Today's Date:* ${date} 
 ┃ ⏲️  *Current Time:* ${wib} 
-╰───────────────❖
+╰───────────────⍟
 
-┏━*👤USER*━┓
+┏━👤 `User 𝙸𝚗𝚏𝚘`👤━┓
 ┃ 👾  *User Tag:* ${taguser} 
 ┃ 😇  *Name:* ${name} 
-┃ 🌟  *Master Mind:* Excel
-┃ 💎  *Diamonds:* -9999
+┃ 🌟  *Master Mind:* 𝙴𝚇𝙲𝙴𝙻
+┃ 💎  *Diamonds:* ${diamond} 
 ┃ 🏆  *Rank:* ${role}
 ┃ 🎮  *XP:* ${exp} 
-╰───────────────❖
+╰───────────────⍟
 
  
 ┌─❖『 *_religion_* 』❖
 ┃❏*bible [chapter_number|chapter_name]
-❏*quran [surah_number|surah_name]
 ╰─────────────────❖
 ┌─❖『 *_AI_* 』❖
 ┃❏*bingimg2
+┃❏*dalle
 ┃❏*chatgpt
 ┃❏*aisearch
 ┃❏*toanime
@@ -88,8 +88,6 @@ let str = `
 ┃❏*qr <text>
 ┃❏*qrcode <text>
 ┃❏*weather *<place>*
-┃❏*shortlink <longLink>
-┃❏*bitly <longlink>
 ┃❏*dehaze
 ┃❏*recolor
 ┃❏*hdr
@@ -118,11 +116,10 @@ let str = `
 ┃❏*telesticker  Ⓛ
 ┃❏*tourl
 ┃❏*translate <lang> <text>
+┃❏*true
 ┃❏*tts <lang> <task>
 ┃❏*wa
 ┃❏*wikipedia
-┃❏*true
-┃❏*findmusic
 ┃❏*githubstalk <query>
 ╰─────────────────❖
 ┌─❖『 *_group_* 』❖
@@ -153,6 +150,24 @@ let str = `
 ┃❏*totag
 ┃❏*warn @user
 ┃❏*warns
+┃❏*main
+┃❏*main
+┃❏*main
+╰─────────────────❖
+┌─❖『 *_study_* 』❖
+╰─────────────────❖
+┌─❖『 *_info_* 』❖
+┃❏*devi
+┃❏*maindev
+╰─────────────────❖
+┌─❖『 *_logo2_* 』❖
+┃❏*main
+╰─────────────────❖
+┌─❖『 *_quran_* 』❖
+┃❏*quran [surah_number|surah_name]
+╰─────────────────❖
+┌─❖『 *_surah_* 』❖
+┃❏*quran [surah_number|surah_name]
 ╰─────────────────❖
 ┌─❖『 *_anime_* 』❖
 ┃❏*anime
@@ -211,10 +226,6 @@ let str = `
 ┌─❖『 *_owner_* 』❖
 ┃❏*leavegc
 ┃❏*out
-┃❏*deletechat
-┃❏*pin
-┃❏*unpin
-┃❏*deletechat
 ┃❏*addprem <@tag>
 ┃❏*addowner @user
 ┃❏*allow <@tag>
@@ -249,7 +260,6 @@ let str = `
 ┃❏*afk <reason>
 ┃❏*tomp3
 ┃❏*toav
-┃❏*toxicity
 ┃❏*bot
 ┃❏*character @tag
 ┃❏*dare
@@ -263,39 +273,6 @@ let str = `
 ┃❏*yomamajoke
 ┃❏*truth
 ┃❏*waste @user
-┃❏*perv
-┃❏*handsome
-┃❏*hot
-┃❏*sexy
-┃❏*ugly
-┃❏*cute
-┃❏*playboy
-┃❏*playgirl
-┃❏*beautiful
-┃❏*lesbian
-┃❏*whore
-┃❏*motherfucker
-┃❏*sucker
-┃❏*horny
-┃❏*foolish
-┃❏*nibba
-┃❏*nibbi
-┃❏*bitch
-┃❏*waifu
-┃❏*crackhead
-┃❏*rascal
-┃❏*idiot
-┃❏*girlyboy
-┃❏*tomboy
-┃❏*gigachad
-┃❏*mf
-┃❏*introvert
-┃❏*extrovert
-┃❏*sigma
-┃❏*psycho
-┃❏*brainless
-┃❏*useless
-┃❏*singer
 ┃❏*image
 ┃❏*meme
 ┃❏*quote
@@ -338,8 +315,6 @@ let str = `
 ╰─────────────────❖
 ┌─❖『 *_main_* 』❖
 ┃❏*channel
-┃❏*database
-┃❏*user
 ┃❏*gpguru
 ┃❏*alive
 ┃❏*blocklist
@@ -363,7 +338,6 @@ let str = `
 ┃❏*animemenu2
 ┃❏*animemenu
 ┃❏*listprem
-┃❏*logomenu2
 ┃❏*ping
 ┃❏*ping2
 ┃❏*runtime
@@ -458,9 +432,25 @@ let str = `
 ┃❏*enable <option>
 ┃❏*disable <option>
 ╰─────────────────❖
-┌─❖『 *_internet_* 』❖
-┃❏*google <search>
-┃❏*s <search>
+┌─❖『 *_logo_* 』❖
+┃❏*deepsea
+┃❏*horror
+┃❏*pink
+┃❏*candy
+┃❏*christmas
+┃❏*luxury
+┃❏*sky
+┃❏*steel
+┃❏*glue
+┃❏*fabric
+┃❏*transformer
+┃❏*toxic
+┃❏*ancient
+┃❏*thunder
+┃❏*graphy
+┃❏*neon
+┃❏*frozen
+┃❏*cat
 ╰─────────────────❖
 ┌─❖『 *_maker_* 』❖
 ┃❏*blur
@@ -485,8 +475,6 @@ let str = `
 ┃❏*stupid
 ┃❏*tweet <comment>
 ┃❏*lolicon
-┃❏*quozio
-┃❏*qmkr
 ┃❏*ytcomment <comment>
 ╰─────────────────❖
 ┌─❖『 *_nsfw_* 』❖
@@ -539,6 +527,18 @@ let str = `
 ┃❏*smooth [vn]
 ┃❏*tupai [vn]
 ╰─────────────────❖
+┌─❖『 *_ai_* 』❖
+┃❏*hd 🅟
+┃❏*hdr 🅟
+┃❏*unblur 🅟
+┃❏*colorize 🅟
+┃❏*colorizer 🅟
+┃❏*enhance 🅟
+┃❏*enhancer 🅟
+┃❏*dehaze 🅟
+┃❏*recolor 🅟
+┃❏*enhance 🅟
+╰─────────────────❖
 ┌─❖『 *_news_* 』❖
 ┃❏*news
 ┃❏*technews
@@ -546,7 +546,9 @@ let str = `
 ┌─❖『 *_conversion_* 』❖
 ┃❏*convert
 ╰─────────────────❖
-𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸 𝙱𝚈 𝙴𝚇𝙲𝙴𝙻 𝙰𝙼𝙰𝙳𝙸`
+*☰Made By Excel☰*
+
+`
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
@@ -555,7 +557,7 @@ let str = `
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu', 'help'] 
+handler.command = ['menu2', 'help2'] 
 
 export default handler
 function clockString(ms) {
@@ -563,7 +565,7 @@ function clockString(ms) {
     let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
     let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
-    
+
     function ucapan() {
       const time = moment.tz('Asia/Kolkata').format('HH')
       let res = "happy early in the day☀️"
