@@ -7,8 +7,8 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['234704356', 'STAR-MD', true],
-  ['23233436', 'Excel✔️', true], 
+  ['2347045035241', 'STAR-MD', true],
+  ['23233436666', 'Excel✔️', true], 
   [''] 
 ] //Number of owners
 
@@ -54,7 +54,7 @@ global.botname = 'sᴛᴀʀ-ᴍᴅ-ᴠ2'
 global.premium = 'true'
 global.packname = 'sᴛᴀʀ┃ᴮᴼᵀ' 
 global.author = '@Excel' 
-global.menuvid = 'https://i.imgur.com/84L92eH.mp4'
+global.menuvid = 'https://i.imgur.com/5MPAkLo.mp4'
 global.Channel = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X' 
 global.dygp = 'https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X'
 global.fgsc = 'https://github.com/Xcelsama/STAR-MD-V2' 
