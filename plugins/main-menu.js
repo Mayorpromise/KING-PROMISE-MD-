@@ -202,7 +202,7 @@ import {
    throw e
   }
  }
- handler.command = /^(menu2|Excel|\?)$/i
+ handler.command = /^(menu|xcelsama|\?)$/i
 
 
 
