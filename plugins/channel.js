@@ -5,8 +5,7 @@ let handler = async m => m.reply(`
 │ 📝 *Description:* _I'm STAR-MD-V2. A  
 ┃MultiDevice WhatsApp bot with rich features  ┃Created BY +2347045035241._
 │ 👤 *Owner:* _乇乂匚乇ㄥ_
-│ 🌐 *Channel:* https://whatsapp.com/channel
-┃/0029Va9wmuz8F2pGIURwmo0m
+│ 🌐 *Channel:* https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X
 ╰━━━━━━━━━━━━━━━━╯
 `.trim())
 handler.help = ['channel']
