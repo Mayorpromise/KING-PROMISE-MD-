@@ -11,7 +11,7 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": "mongodb+srv://excel:hepzibah@1@excel.jvj6jsy.mongodb.net/?retryWrites=true&w=majority&appName=excel"
+      "value": "mongodb+srv://starmd:xcelsama@excel.xmckecq.mongodb.net"
     },
     "SESSION_ID": {
       "description": "your session id",
