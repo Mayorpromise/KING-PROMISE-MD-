@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = './Assets/STAR-V2.jpg'
+let pp = './STAR.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -39,12 +39,12 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
 
-🌠 *_EX-BOTS team quote of the day: ${quote}_* 🌠
+🌠 *_quote of the day: ${quote}_* 🌠
 
 ┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Founder:* 乇乂匚乇ㄥ
+┃ 🏮  *Creator:* Excel Amadi
 ┃ 🤡  *Bot Name:* ${botname} 
-┃ 💻  *Host:* Kali Lair
+┃ 💻  *Host:* Linux Lair
 ┃ 📣  *Prefix:* ${usedPrefix} 
 ┃ 🕓  *Uptime:* ${uptime}
 ┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
