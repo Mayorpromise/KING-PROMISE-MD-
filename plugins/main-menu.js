@@ -25,9 +25,11 @@ import {
   ┃⬤ *Uptime:* %muptime
   ┃⬤ *Database:*  %totalreg
   ┃⬤ *%totalfeatures* Commands
+  ┃⬤ *Greeting* *%ucpn* 
   ╰━━━━━━━━━━━━━━━╯
-   *%ucpn* 
+   
   `©STAR-MD-V2`
+
    %readmore
  `.trimStart(),
  header: "╭━━✘ 「 *%category* 」✘━━╮",
