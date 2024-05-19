@@ -15,35 +15,25 @@ import {
 
  const defaultMenu = {
   before: `
-  │✪ - 「𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸」 - ✪│\n
-  
- 
- 
-  ╭━━⊱『ℹ️𝙸𝙽𝙵𝙾ℹ️』⊱━━╮
-  ┆✪ *Mode:* %mode
-  ┆✪ *Platform:* %platform
-  ┆✪ *Type:* NodeJs
-  ┆✪ *Baileys:* Multi Device
-  ┆✪ *Prefix:* [ *%_p* ]
-  ┆✪ *Uptime:* %muptime
-  ┆✪ *Database:*  %totalreg
+  ╭━━✘『丂ㄒ卂尺』✘━━╮
+  ┃ ▶ *User:* %name    
+  ┃ ▶ *Mode:* %mode
+  ┃▶ *Platform:* %platform
+  ┃▶ *Type:* NodeJs
+  ┃▶ *Baileys:* Multi Device
+  ┃▶*Prefix:* [ *%_p* ]
+  ┃▶ *Uptime:* %muptime
+  ┃▶ *Database:*  %totalreg
+  ┃▶  *%totalfeatures* Commands
   ╰━━━━━━━━━━━━━━━╯
+   *%ucpn*
   
- ╭━━✧「👥𝚄𝚂𝙴𝚁👥」✧━━─╮
- ┆✪ *Name:* %name     ↺
- ╰━━━━━━━━━━━━━━━━╸╯
- 
- *%ucpn*
-  
-  ╭━━⊱『 📡𝚃𝙾𝚃𝙰𝙻-𝙲𝙼𝙳📡』⊱━━╮ 
-  │📍 *%totalfeatures* Commands
-  ╰──────────☆★
- %readmore
+   %readmore
  `.trimStart(),
- header: "╭━━⊱ 「 *%category* 」⊱━━╮",
- body: "  │✪ -  %cmd %isPremium %islimit",
+ header: "╭━━✘ 「 *%category* 」✘━━╮",
+ body: "  │┆▶ -  %cmd %isPremium %islimit",
  footer: "╰━━━━━━━━━━━━━━━╯",
- after: "https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X",
+ after: "`©STAR-MD-V2`",
 
  }
  let handler = async (m, {
@@ -54,7 +44,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "✅",
+ text: "💫",
  key: m.key,
    }
   })
