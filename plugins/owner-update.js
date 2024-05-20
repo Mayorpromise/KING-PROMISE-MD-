@@ -14,7 +14,7 @@ let handler = async (m, { conn, isOwner }) => {
     
     if (command === 'update') {
       await checkForUpdates(conn, repositoryURL, m);
-    } else if (command === 'update now') {
+    } else if (command === 'updatenow') {
       await updateBot(conn, m);
     } else {
       conn.reply(m.chat, '❌ Invalid command. Use `update` to check for updates or `update now` to update the bot.', m);
