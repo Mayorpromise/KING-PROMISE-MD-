@@ -25,7 +25,7 @@ import {
 ┃✰│*Uptime:* %muptime
 ┃✰│*Database:*  %totalreg
 ┃✰│*%totalfeatures*  Commands
-┃✰│*Greeting:*  *%ucpn* 
+┃✰│*Time_of_the_day:* *%ucpn* 
 ┃✰╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
  *©STAR-MD-V2*
@@ -33,7 +33,7 @@ import {
   %readmore
  `.trimStart(),
  header: "┌─⬤『 *_%category_* 』⬤",
- body: "┃➺%cmd %isPremium %islimit",
+ body: "┃➺ %cmd %isPremium %islimit",
  footer: "╰─────────────────⬤",
  after: "\n%me",
  }
