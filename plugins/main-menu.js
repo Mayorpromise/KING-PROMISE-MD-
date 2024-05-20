@@ -27,16 +27,13 @@ import {
   ┃⬤ *%totalfeatures* Commands
   ┃⬤ *Greeting* *%ucpn* 
   ╰━━━━━━━━━━━━━━━╯
-   
-  `©STAR-MD-V2`
+ *©STAR-MD-V2*
 
-   %readmore
  `.trimStart(),
- header: "╭━━✘ 「 *%category* 」✘━━╮",
- body: "  │⬤ -  %cmd %isPremium %islimit",
- footer: "╰━━━━━━━━━━━━━━━╯",
- after: "`©STAR-MD-V2`",
-
+ header: "┌─⬤『 *_%category_* 』⬤",
+ body: "┃⬤%cmd %isPremium %islimit",
+ footer: "╰─────────────────⬤",
+ after: "\n%me",
  }
  let handler = async (m, {
   conn,
@@ -46,7 +43,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "💫",
+ text: "🥂",
  key: m.key,
    }
   })
@@ -59,7 +56,7 @@ import {
    let glb = global.db.data.users
    let usrs = glb[m.sender]
    let tag = `@${m.sender.split("@")[0]}`
-   let mode = global.opts["self"] ? "Private" : "Public"
+   let mode = process.env.MODE || (global.opts["self"] ? "Private" : "Public");
    let _package = JSON.parse(await promises.readFile(join(__dirname, "../package.json")).catch(_ => ({}))) || {}
    let {
  age,
@@ -169,20 +166,20 @@ import {
  readmore: readMore
    }
    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, "g"), (_, name) => "" + replace[name])
-   const pp = (thumb)
+   const pp = './Assets/STAR-V2.jpg'
 
 
  let contact = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
   conn.sendMessage(m.chat, { video: { url: menuvid }, caption: text.trim(),  gifPlayback: true,
-  gifAttribution: 0}, { quoted: m })
+  gifAttribution: 0}, { quoted: contact })
 
   } catch (e) {
    await conn.reply(m.chat, " error", m)
    throw e
   }
  }
- handler.command = /^(menu|h2|hh|help2|\?)$/i
+ handler.command = /^(menu|help|\?)$/i
 
 
 
@@ -217,7 +214,7 @@ import {
   const time = moment.tz("Asia/Kolkata").format("HH")
   let res = "Good morning ☀️"
   if (time >= 4) {
-   res = "Good Morning 🤗🌄"
+   res = "Good Morning 🌄"
   }
   if (time >= 10) {
    res = "Good Afternoon ☀️"
@@ -226,7 +223,7 @@ import {
    res = "Good Afternoon 🌇"
   }
   if (time >= 18) {
-   res = "Good Night 🌙😴"
+   res = "Good Night 🌙"
   }
   return res
  }
