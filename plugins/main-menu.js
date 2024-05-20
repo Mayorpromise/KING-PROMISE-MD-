@@ -16,16 +16,16 @@ import {
  const defaultMenu = {
   before: `
  ╭━━━〔 丂ㄒ卂尺〕━━━┈⊷
-┃✰│ *User:* %name    
-┃✰│  *Mode:* %mode
-┃✰│ *Platform:* %platform
-┃✰│  *Type:* NodeJs
-┃✰│ *Baileys:* Multi Device
-┃✰│ *Prefix:* [ *%_p* ]
-┃✰│      *Uptime:* %muptime
-┃✰│   *Database:*  %totalreg
-┃✰│   *%totalfeatures*  Commands
-┃✰│  *Greeting:*  *%ucpn* 
+┃✰│*User:* %name    
+┃✰│*Mode:* %mode
+┃✰│*Platform:* %platform
+┃✰│*Type:* NodeJs
+┃✰│*Baileys:* Multi Device
+┃✰│*Prefix:* [ *%_p* ]
+┃✰│*Uptime:* %muptime
+┃✰│*Database:*  %totalreg
+┃✰│*%totalfeatures*  Commands
+┃✰│*Greeting:*  *%ucpn* 
 ┃✰╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
  *©STAR-MD-V2*
@@ -213,19 +213,19 @@ import {
  }
 
  function ucapan() {
-  const time = moment.tz("Asia/Kolkata").format("HH")
-  let res = "Good morning ☀️"
+  const time = moment.tz("Nigeria/Lagos").format("HH")
+  let res = "MORNING🌞"
   if (time >= 4) {
-   res = "Good Morning 🌄"
+   res = "MORNING🌄"
   }
   if (time >= 10) {
-   res = "Good Afternoon ☀️"
+   res = "AFTERNOON☀️"
   }
   if (time >= 15) {
-   res = "Good Afternoon 🌇"
+   res = "AFTERNOON🌇"
   }
   if (time >= 18) {
-   res = "Good Night 🌙"
+   res = "GOOD NIGHT 🌙"
   }
   return res
  }
