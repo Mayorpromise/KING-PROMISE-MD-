@@ -15,18 +15,19 @@ import {
 
  const defaultMenu = {
   before: `
-  ╭━━✘『丂ㄒ卂尺』✘━━╮
-  ┃⬤ *User:* %name    
-  ┃⬤ *Mode:* %mode
-  ┃⬤ *Platform:* %platform
-  ┃⬤ *Type:* NodeJs
-  ┃⬤ *Baileys:* Multi Device
-  ┃⬤ *Prefix:* [ *%_p* ]
-  ┃⬤ *Uptime:* %muptime
-  ┃⬤ *Database:*  %totalreg
-  ┃⬤ *%totalfeatures* Commands
-  ┃⬤ *Greeting* *%ucpn* 
-  ╰━━━━━━━━━━━━━━━╯
+ ╭━━━〔 丂ㄒ卂尺〕━━━┈⊷
+┃✰│ *User:* %name    
+┃✰│  *Mode:* %mode
+┃✰│ *Platform:* %platform
+┃✰│  *Type:* NodeJs
+┃✰│ *Baileys:* Multi Device
+┃✰│ *Prefix:* [ *%_p* ]
+┃✰│      *Uptime:* %muptime
+┃✰│   *Database:*  %totalreg
+┃✰│   *%totalfeatures*  Commands
+┃✰│  *Greeting:*  *%ucpn* 
+┃✰╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷
  *©STAR-MD-V2*
 
   %readmore
