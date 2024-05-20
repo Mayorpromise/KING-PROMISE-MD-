@@ -17,6 +17,7 @@ import {
   before: `
  ╭━━━〔 丂ㄒ卂尺〕━━━┈⊷
 ┃✰│*User:* %name    
+┃✰│*Dev:* Excel     
 ┃✰│*Mode:* %mode
 ┃✰│*Platform:* %platform
 ┃✰│*Type:* NodeJs
@@ -25,7 +26,7 @@ import {
 ┃✰│*Uptime:* %muptime
 ┃✰│*Database:*  %totalreg
 ┃✰│*%totalfeatures*  Commands
-┃✰│*Time_of_the_day:* *%ucpn* 
+┃✰│*Day_part:* *%ucpn* 
 ┃✰╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
  *©STAR-MD-V2*
