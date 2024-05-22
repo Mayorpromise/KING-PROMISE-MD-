@@ -33,7 +33,7 @@ import {
 
   %readmore
  `.trimStart(),
- header: "┌─⬤『 *_%category_ 』⬤",
+ header: "┌─⬤『 ```%category``` 』⬤",
  body: "┃➺ %cmd %isPremium %islimit",
  footer: "╰─────────────────⬤",
  after: "\n%me",
