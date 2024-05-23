@@ -6,7 +6,7 @@ import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import {tiktokdl} from '@bochilteam/scraper';
 const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
-  if (!text) throw `_*XLICON TIKTOK DL*_\n\n*_Past a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
+  if (!text) throw `_*STAR TIKTOK DL*_\n\n*_Past a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
   if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `_*XLICON TIKTOK DL*_\n\n*_Enter a TikTok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
 
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
