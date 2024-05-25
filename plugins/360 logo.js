@@ -4,7 +4,7 @@
 let handler = async (m, { conn, args, command }) => { 
     let response = args.join(' ').split('|')
     if (!args[0]) throw `${mg}WRITE A TEXT TO CREATE 𝙇𝙊𝙂𝙊\n\n𝙒𝙍𝙄𝙏𝙀 𝘼 2 𝙏𝙀𝙓𝙏 𝙏𝙊 𝘾𝙍𝙀𝘼𝙏𝙀 𝙏𝙃𝙀 𝙇𝙊𝙂𝙊`
-    let img = './XLICON.jpg'  
+    let img = './STAR.jpg'  
     const fkontak = {
         "key": {
         "participants":"0@s.whatsapp.net",
