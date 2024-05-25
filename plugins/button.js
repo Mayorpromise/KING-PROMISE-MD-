@@ -26,7 +26,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
         throw new Error('No valid JSON response from the first API')
       }
 
-      await conn.sendButton(m.chat,result, author, 'https://i.imgur.com/rGrhPPB.jpeg', [['Script', `${usedPrefix}script`]], null, [['FORK GIT', `https://github.com/Xcelsama/STAR-MD-V2`]], m)
+      await conn.sendButton(m.chat,result, author, 'https://telegra.ph/file/f6908fee9f896b7cb6e63.jpg', [['Script', `${usedPrefix}script`]], null, [['FORK Repo', `https://github.com/Xcelsama/STAR-MD-V2/fork`]], m)
       m.react(done)
     } catch (error) {
       console.error('Error from the first API:', error)
@@ -40,7 +40,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
       let data = await response.json()
       let result = data.completion
 
-     await conn.sendButton(m.chat,result, author, 'https://i.imgur.com/rGrhPPB.jpeg', [['Script', `.sc`]], null, [['FORK GIT', `https://github.com/Xcelsama/STAR-MD-V2`]], m)
+     await conn.sendButton(m.chat,result, author, 'https://telegra.ph/file/f6908fee9f896b7cb6e63.jpg', [['Script', `.sc`]], null, [['Fork Repo', `https://github.com/Xcelsama/STAR-MD-V2/fork`]], m)
       m.react(done)
     }
   } catch (error) {
