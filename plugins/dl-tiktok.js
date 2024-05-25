@@ -13,7 +13,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   try {
     m.react(rwait)
     const dataFn = await conn.getFile(`${CFROSAPI}/api/tiktokv2?url=${args[0]}`);
-    const desc1n = `*_`|©STAR-MD-V2`|_*`;
+    const desc1n = `*_|©STAR-MD-V2|_*`;
     await conn.sendMessage(m.chat, {video: dataFn.data, caption: desc1n}, {quoted: m});
  m.react(done)
   } catch (ee1) {
