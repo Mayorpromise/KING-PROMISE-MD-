@@ -123,7 +123,7 @@ export async function handler(chatUpdate) {
                     level: 0,
                     role: 'Tadpole',
                     autolevelup: false,
-                    
+
                 }
                 }
             let chat = global.db.data.chats[m.chat]
@@ -172,8 +172,8 @@ export async function handler(chatUpdate) {
                     welcome: false,
                     chatbot: false
                 }
-          
-                
+
+
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== "object") global.db.data.settings[this.user.jid] = {}
             if (settings) {
@@ -222,7 +222,7 @@ export async function handler(chatUpdate) {
          if (process.env.MODE && process.env.MODE.toLowerCase() === 'private' && !(isROwner || isOwner))
           return;
 
-        
+
         if (m.isBaileys)
             return
         m.exp += Math.ceil(Math.random() * 10)
@@ -533,7 +533,7 @@ export async function participantsUpdate({
         owner: '👑'
     };
 
-    
+
 
     switch (action) {
         case 'add':
@@ -553,10 +553,10 @@ export async function participantsUpdate({
                     .replace('@group', await this.getName(id))
                     .replace('@desc', groupMetadata.desc?.toString() || 'error')
                     .replace('@user', '@' + user.split('@')[0]);
-          
+
                   let nthMember = groupMetadata.participants.length;
                   let secondText = `Welcome, ${await this.getName(user)}, our ${nthMember}th member`;
-          
+
                   let welcomeApiUrl = `https://wecomeapi.onrender.com/welcome-image?username=${encodeURIComponent(
                     await this.getName(user)
                   )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
@@ -566,11 +566,11 @@ export async function participantsUpdate({
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
                     'https://cdn.wallpapersafari.com/71/19/7ZfcpT.png'
                   )}`;
-          
+
                   try {
                     let welcomeResponse = await fetch(welcomeApiUrl);
                     let welcomeBuffer = await welcomeResponse.buffer();
-          
+
                     this.sendMessage(id, {
                         text: text,
                         contextInfo: {
@@ -590,7 +590,7 @@ export async function participantsUpdate({
               }
             }
             break;
-          
+
           case 'remove':
             if (chat.welcome) {
               let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
@@ -606,10 +606,10 @@ export async function participantsUpdate({
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
-          
+
                   let nthMember = groupMetadata.participants.length;
                   let secondText = `Goodbye, our ${nthMember}th group member`;
-          
+
                   let leaveApiUrl = `https://wecomeapi.onrender.com/leave-image?username=${encodeURIComponent(
                     await this.getName(user)
                   )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
@@ -619,11 +619,11 @@ export async function participantsUpdate({
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
                     'https://cdn.wallpapersafari.com/71/19/7ZfcpT.png'
                   )}`;
-          
+
                   try {
                     let leaveResponse = await fetch(leaveApiUrl);
                     let leaveBuffer = await leaveResponse.buffer();
-          
+
                     this.sendMessage(id, {
                         text: text,
                         contextInfo: {
@@ -710,7 +710,7 @@ export async function groupsUpdate(groupsUpdate) {
         } else if (groupUpdate.restrict === false) {
             text = (chats.sRestrictOff || this.sRestrictOff || conn.sRestrictOff || `*${emoji.restrictOff} Group is now restricted to admins only!*`)
         }
-        
+
 
         if (!text) continue
         await this.sendMessage(id, { text, mentions: this.parseMention(text) })
@@ -722,8 +722,8 @@ Delete Chat
  */
 export async function deleteUpdate(message) {
     try {
-        
-       
+
+
       if (typeof process.env.antidelete === 'undefined' || process.env.antidelete.toLowerCase() === 'false') return;
 
 
@@ -738,7 +738,7 @@ export async function deleteUpdate(message) {
         if (!msg)
             return
         let chat = global.db.data.chats[msg.chat] || {}
-       
+
             await this.reply(msg.chat, `
             ≡ deleted a message 
             ┌─⊷  STAR ANTI DELETE
@@ -769,7 +769,7 @@ export async function pollUpdate(message) {
                         pollUpdates: pollCreation.pollUpdates,
                     })
                     message.pollUpdates[0].vote = pollMessage
-                    
+
                     await console.log(pollMessage)
                     this.appenTextMessage(message, message.pollUpdates[0].vote || pollMessage.filter((v) => v.voters.length !== 0)[0]?.name, message.message);
                 }
@@ -799,7 +799,7 @@ export async function presenceUpdate(presenceUpdate) {
         const caption = `\n@${username} has stopped being AFK and is currently typing.\n\nReason: ${
             user.afkReason ? user.afkReason : "No Reason"
           }\nFor the past ${timeAfk.toTimeString()}.\n`;
-          
+
 
         this.reply(id, caption, null, {
             mentions: this.parseMention(caption)
