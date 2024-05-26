@@ -1,3 +1,4 @@
+// Ｇｉｖｅ ｃｒｅｄｉｔｓ ｔｏ @Xcelsama
 import fetch from 'node-fetch';
 
 var horoscopeHandler = async (m, { conn, args }) => {
@@ -17,10 +18,12 @@ var horoscopeHandler = async (m, { conn, args }) => {
 - Color: ${data.color}
 - Lucky Number: ${data.lucky_number}
 - Description: ${data.description}
+©ＳＴＡＲ-ＭＤ-Ｖ２
 `;
 
   await conn.sendMessage(m.chat, horoscopeInfo);
 };
-
-handler.command = /^(horoscope|zodiac)$/i;
+handler.help=['horoscope']
+handler.command = /^(horoscope|zodiac)$/i
+handler.tag=['new']
 export default horoscopeHandler;
