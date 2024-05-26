@@ -26,4 +26,4 @@ var horoscopeHandler = async (m, { conn, args }) => {
 handler.help=['horoscope']
 handler.command = /^(horoscope|zodiac)$/i
 handler.tag=['new']
-export default horoscopeHandler;
+export default Handler;
