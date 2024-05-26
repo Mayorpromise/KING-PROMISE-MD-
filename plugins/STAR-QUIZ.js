@@ -1,3 +1,4 @@
+// Ｇｉｖｅ ｃｒｅｄｉｔｓ ｔｏ @Xcelsama
 let quizzes = [
   { question: "What is the capital of France?", options: ["Paris", "Rome", "Berlin", "Madrid"], answer: "Paris" },
   { question: "Who wrote 'To Kill a Mockingbird'?", options: ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"], answer: "Harper Lee" },
