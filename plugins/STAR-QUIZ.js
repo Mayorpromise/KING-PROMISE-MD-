@@ -27,6 +27,6 @@ var quizHandler = async (m, { conn }) => {
     }
   });
 };
-
-handler.command = /^(quiz|trivia)$/i;
+handler.tag= ['new']
+handler.command = /^(quiz|trivia)$/i
 export default quizHandler;
