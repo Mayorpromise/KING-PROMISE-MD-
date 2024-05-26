@@ -29,4 +29,4 @@ var quizHandler = async (m, { conn }) => {
 };
 handler.tag= ['new']
 handler.command = /^(quiz|trivia)$/i
-export default quizHandler;
+export default handler;
