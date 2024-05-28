@@ -43,7 +43,7 @@
 
     
    
-## STEPS TO DEPLOY MILES
+## STEPS TO DEPLOY KING-PROMISE MD
 
 🕸. ***Get Session ID (SERVER 1)***
     <br>
