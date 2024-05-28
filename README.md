@@ -55,12 +55,12 @@
 
 🕸. ***Get Session ID (SERVER 3)***
     <br>
-<a href='https://replit.com/@jordanzzz4444/JJ-PAIR#index.js' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id_3-100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@mayorpromise66/KING-PROMISE-MD-V1-PAIR-CODE?s=app' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id_3-100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=black&color=black'/></a>
 
 
-🕸.  ***FORK JORDAN-JOELSTAR REPO***
+🕸.  ***FORK KING-PROMISE MD REPO***
     <br>
-<a href='https://github.com/jamesxtreme/JORDAN-JOELSTAR/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=black&color=black'/></a>
+<a href='https://github.com/Mayorpromise/KING-PROMISE-MD-/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=blue&labelColor=black&color=black'/></a>
 
 🕸. ***DEPLOY FREE ON CODESPACE. SEE TUTORIALS FIRST***
     <br>
@@ -68,7 +68,7 @@
 
 🕸.  ***DEPLOY ON HEROKU***
     <br>
-<a href='https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fjamesxtreme%2FJORDAN-JOELSTAR' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Mayorpromise/KING-PROMISE-MD-' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=blue'/></a>
 
 🕸.  ***SEE TUTORIALS FOR HEROKU DEPLOY***
     <br>
@@ -97,6 +97,8 @@
   </div>
   
    ## 
-  [`🕷NIMI`](https://wa.me/2349031432649)
-  [`🕷COLLINS`](https://wa.me/+64204918166)
+  [`👑NIMI`](https://wa.me/2349031432649)
+  [`👑COLLINS`](https://wa.me/+64204918166)
+  [`👑EXCEL`](https://wa.me/+2347045035241)
+
   
