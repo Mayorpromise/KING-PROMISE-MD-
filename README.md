@@ -1,7 +1,7 @@
 ![](https://github.com/jamesxtreme/gif/blob/main/919.gif)
 
 <p align="center">
-    <img alt="Suhail docs" height="300" src="https://telegra.ph/file/5a06979ab4afb8ab7dccb.jpg">
+    <img alt="Suhail docs" height="300" src="https://telegra.ph/file/5c4c31c0cf4e5344deefc.jpg">
   </a>
 </p>
 
@@ -12,19 +12,19 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/jamesxtreme/JORDAN-JOELSTAR"><b>《M》《I》《L》《E》《S》</b></a> SUPPORT DEPLOY ON...
+  <a href="https://github.com/Mayorpromise/KING-PROMISE-MD-"><b>《M》《A》《Y》《O》《R》</b></a> SUPPORT DEPLOY ON...
 </p>
 
 <p align="center">
     <br>
-<a href='https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fjamesxtreme%2FJORDAN-JOELSTAR' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-blue?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Mayorpromise/KING-PROMISE-MD-' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-blue?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 </p>
 <p align="center">
   <a href="https://youtu.be/3NdJb6_1cJM"><img src="https://img.shields.io/badge/CodeSpace-blue?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 </p>
-<p align="center">NEED HELP? PLEASE CREATE AN <a href="https://github.com/jamesxtreme/JORDAN-JOELSTAR/issues">ISSUE</a></p>
+<p align="center">NEED HELP? PLEASE CREATE AN <a href="https://github.com/Mayorpromise/KING-PROMISE-MD-/issues">ISSUE</a></p>
  
 
 
