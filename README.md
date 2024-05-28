@@ -1,7 +1,7 @@
 ![](https://github.com/jamesxtreme/gif/blob/main/919.gif)
 
 <p align="center">
-    <img alt="Suhail docs" height="300" src="https://telegra.ph/file/5c4c31c0cf4e5344deefc.jpg">
+    <img alt="Suhail docs" height="300" src="https://i.imgur.com/c4sLoVI.jpeg">
   </a>
 </p>
 
