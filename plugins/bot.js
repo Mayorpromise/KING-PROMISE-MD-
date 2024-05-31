@@ -9,7 +9,7 @@ m.reply( `*Hello ${taguser} Am KING-PROMISE MD created by Mayor. Do Need help?  
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(Star|Excel)$/i
+handler.customPrefix = /^(KING-PROMISE|Mayor)$/i
 handler.command = new RegExp
 
 export default handler
