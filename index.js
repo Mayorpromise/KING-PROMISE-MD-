@@ -13,7 +13,7 @@ import cfonts from 'cfonts';
 const { say } =  cfonts;
 
 say("KING-PROMISE MD", {
-  'font': "small cap",
+  'font': "smallcap",
   'align': "center",
   'colors': ['#ff9900'],
   'background': "transparent",
