@@ -1,9 +1,9 @@
 let handler = async m => m.reply(`
-I'M STAR MD V2 BY THE TALENTED EXCEL AMADI
-TYPE *menu TO SEE MY COMMANDS
-ℹ️FOLLOW DEVELOPER:- https://github.com/Xcelsama
-GET IN TOUCH
-https://linktr.ee/Xcelsama
+I'M KING-PROMISE MD 👑 BY THE TALENTED MAYOR PROMISE🦅
+TYPE .menu TO SEE MY COMMANDS
+👑FOLLOW DEVELOPER:- https://github.com/Mayorpromise
+GET IN TOUCH ON WHATSAPP
+https://wa.me/2349164717432
 `.trim())
 handler.help = ['hey']
 handler.tags = ['main']
