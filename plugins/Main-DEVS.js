@@ -17,13 +17,13 @@ var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let pp = './Assets/STAR-V2.jpg';
   
   // Define the developer variable
-  let developer = 'Excel Amadi'; // or retrieve this dynamically
+  let developer = 'Mayor Promise'; // or retrieve this dynamically
   
-  const cat = `*_STAR-V2_*
+  const cat = `*_KING-PROMISE MD_*
   
-*_—🔰 𝘚𝘛𝘈𝘙-𝘔𝘋  𝐃𝐄𝐕 𝟏 wa.me/+2347045035241 %i'm here to help%_*
+*_—🔰 𝘒𝘐𝘕𝘎-𝘗𝘙𝘖𝘔𝘐𝘚𝘌  𝐃𝐄𝐕 𝟏 wa.me/+2349164717432 %i'm here to help%_*
 
-*_—🔰 𝘚𝘛𝘈𝘙-𝘔𝘋  𝐃𝐄𝐕 2 wa.me/+2347045038687_*
+*_—🔰 𝘒𝘐𝘕𝘎-𝘗𝘙𝘖𝘔𝘐𝘚𝘌  𝐃𝐄𝐕 2 wa.me/+2349164717432_*
 *---------------------*
 
 *_ᴛʜᴇ ᴍᴏᴅᴇʀᴀᴛᴏʀ_*
