@@ -1,4 +1,4 @@
 /**
- * @STAR_V2
- * https://github.com/Xcelsama/STAR-MD-V2
+ * @KING-PROMISE MD
+ * https://github.com/Mayorpromise/KING-PROMISE-MD-
  */
