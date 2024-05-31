@@ -12,8 +12,8 @@ import cfonts from 'cfonts';
 
 const { say } =  cfonts;
 
-say("STAR - V2", {
-  'font': "block",
+say("KING-PROMISE MD", {
+  'font': "small cap",
   'align': "center",
   'colors': ['#ff9900'],
   'background': "transparent",
@@ -23,7 +23,7 @@ say("STAR - V2", {
   'maxLength': '15'
 });
 
-say("STAR-BOT-V2 By Excel._.", {
+say("KING-PROMISE MD By MAYOR._.", {
   'font': "chrome",
   'align': "center",
   'colors': ["red", "magenta"],
