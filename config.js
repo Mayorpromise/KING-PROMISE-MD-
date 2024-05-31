@@ -65,7 +65,7 @@ global.thumb = fs.readFileSync('./STAR.jpg')
 
 
 
-global.wait = '*🕣 _KING-PROMISE MD IS  LOADING WAIT..._*\n*▰▰▰▱▱▱▱▱⭐*'
+global.wait = '*🕣 _KING-PROMISE MD IS  LOADING WAIT..._*\n*▰▰▰▱▱▱▱▱👑*'
 global.rwait = '🔜'
 global.dmoji = '⤵️'
 global.done = '☑️'
