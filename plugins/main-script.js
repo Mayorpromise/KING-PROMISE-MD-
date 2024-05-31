@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/Xcelsama/STAR-MD-V2';
+  const githubRepoURL = 'https://github.com/Mayorpromise/KING-PROMISE-MD-';
 
   try {
   
@@ -16,19 +16,19 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-    ─────《 𝐒𝐓𝐀𝐑-𝐌𝐃-𝐕𝟐 》─────⊷
+    ─────《 ＫＩＮＧ－ＰＲＯＭＩＳＥ ＭＤ 》─────⊷
  📂 *ᏴϴͲ ΝᎪᎷᎬ:* _${repoData.name}_
-📝 *ᎠᎬՏᏟᎡᏆᏢͲᏆϴΝ:* _Ꭺ ᏔᎻᎪͲՏᎪᏢᏢ ᏴϴͲ ᎡᎬᏟϴᎡᎠᎬᎠ ᏴᎽ ᎬХᏟᎬᏞ... ᏔᏆͲᎻ ᏞϴͲՏ ϴҒ ᎡᏆᏟᎻ ҒႮΝᏟͲᏆϴΝՏ.... 
-👤 *ᎠᎬᏙᎬᏞϴᏢᎬᎡ:* _EXCEL AMADI_
+📝 *ᎠᎬՏᏟᎡᏆᏢͲᏆϴΝ:* _Ꭺ ᏔᎻᎪͲՏᎪᏢᏢ ᏴϴͲ ᎡᎬᏟϴᎡᎠᎬᎠ ᏴᎽ MAYOR... ᏔᏆͲᎻ ᏞϴͲՏ ϴҒ ᎡᏆᏟᎻ ҒႮΝᏟͲᏆϴΝՏ.... 
+👤 *ᎠᎬᏙᎬᏞϴᏢᎬᎡ:* _MAYOR PROMISE_
 ⭐ *ՏͲᎪᎡՏ:* _${repoData.stargazers_count}_ 
 🔭*QR SCAN🔭:* https://xcelsama-web-qr-star-md-v2-31a7165329db.herokuapp.com/
-🧤*PAIR CODE:*🧤 https://replit.com/@Xcelsama/STAR-MD-V2-PAIR-CODE?s=app
+🧤*PAIR CODE:*🧤 https://replit.com/@mayorpromise66/KING-PROMISE-MD-V1-PAIR-CODE?s=app
 🍴 *ҒϴᎡᏦՏ:* _${repoData.forks_count}_ 
-⚔️ *ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs
-📡 *ᑭᑌᗷᒪIᑕ ᏀᖇOᑌᑭ:* https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
-💻 *ᑕᕼᗩᑎᑎᗴᒪ ᒪIᑎK:* https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X 
+⚔️ *ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/KInxpNajPC3J6sm6n6cZca
+📡 *ᑭᑌᗷᒪIᑕ ᏀᖇOᑌᑭ:* https://chat.whatsapp.com/KInxpNajPC3J6sm6n6cZca
+💻 *ᑕᕼᗩᑎᑎᗴᒪ ᒪIᑎK:* https://whatsapp.com/channel/0029VabKDye3bbV4Fu13US2N 
 🌐 *ႮᎡᏞ:* ${repoData.html_url}
-🌠 *ΝϴᏔ ᎠᎬᏢᏞϴᎽ*:-https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-V2' 
+🌠 *ΝϴᏔ ᎠᎬᏢᏞϴᎽ*:-https://dashboard.heroku.com/new?template=https://github.com/Mayorpromise/KING-PROMISE-MD-' 
 
  `.trim();
 
