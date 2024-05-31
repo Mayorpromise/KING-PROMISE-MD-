@@ -54,7 +54,7 @@ let str = ` *📡 STAR -V2 BOT📡*
 │🎩 ◦➛✫ - 「${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
 │ *${usedPrefix}list ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
 │ *${greeting}*
-│ *MADE BY Excel*
+│ *MADE BY 𝙼̷𝙰̷𝚈̷𝙾̷𝚁̷ 𝙿̷𝚁̷𝙾̷𝙼̷𝙸̷𝚂̷𝙴̷*
 ╰━━━━━━━━━━━━━━━━━━╯
 📚 *_Quote of the day: ${quote}_* 📚
 `
