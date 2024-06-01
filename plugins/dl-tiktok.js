@@ -6,14 +6,14 @@ import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import {tiktokdl} from '@bochilteam/scraper';
 const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
-  if (!text) throw `_*STAR TIKTOK DL*_\n\n*_Paste a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
-  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `_*STAR TIKTOK DL*_\n\n*_Enter a TikTok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
+  if (!text) throw `_*KING-PROMISE TIKTOK DL*_\n\n*_Paste a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
+  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `_*KING-PROMISE TIKTOK DL*_\n\n*_Enter a TikTok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
 
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
   try {
     m.react(rwait)
     const dataFn = await conn.getFile(`${CFROSAPI}/api/tiktokv2?url=${args[0]}`);
-    const desc1n = `*_|©STAR-MD-V2|_*`;
+    const desc1n = `*_|©KING-PROMISE MD|_*`;
     await conn.sendMessage(m.chat, {video: dataFn.data, caption: desc1n}, {quoted: m});
  m.react(done)
   } catch (ee1) {
@@ -62,7 +62,7 @@ handler.tags = ['downloader'];
 export default handler;
 
 async function tiktokdlF(url) {
-  if (!/tiktok/.test(url)) return `_*STAR TIKTOK DL*_\n\n*_Paste a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
+  if (!/tiktok/.test(url)) return `_*KING-PROMISE TIKTOK DL*_\n\n*_Paste a tiktok link._*\n\n*_Example:_* _${usedPrefix + command} Url here_`;
   const gettoken = await axios.get('https://tikdown.org/id');
   const $ = cheerio.load(gettoken.data);
   const token = $('#download-form > input[type=hidden]:nth-child(2)').attr( 'value' );
