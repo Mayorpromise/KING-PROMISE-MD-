@@ -41,9 +41,9 @@ let str = `
   ཌ|━━🤖 _BOT STATUS:_🤖━━|ད
   ⚀------- *IPHONE-MENU* ------⚀
 
-┌─𐂅  *MADE BY EXCEL*  𐂅
-| ❁✓  *Creator:* 𝙴𝚇𝙲𝙴𝙻
-| 🤖  *Bot Name:* STAR-V2
+┌─𐂅  *MADE BY MAYOR*  𐂅
+| ❁✓  *Creator:* MAYOR
+| 🤖  *Bot Name:* KING-PROMISE MD
 | 💻  *Host:* Linux Lair
 | 📣  *Prefix:* ${usedPrefix} 
 | 🕓  *Uptime:* ${uptime}
@@ -59,8 +59,8 @@ let str = `
 ┌─𐂅「 *👤USER* 」
 | 👾  *User Tag:* ${taguser} 
 | 😇  *Name:* ${name} 
-| ✰  *Master Mind:* 𝙴𝚇𝙲𝙴𝙻
-| 💎  *Diamonds:* -9999
+| ✰  *Master Mind:* MAYOR
+| 💎  *Diamonds:* 1M👑
 | 🏆  *Rank:* ${role}
 | 🎮  *XP:* ${exp} 
 ╰───────────────▶
