@@ -46,26 +46,24 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './STAR.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-🌠 *ᏆΝҒϴ:-ՏͲᎪᎡ-ᎷᎠ-Ꮩ2* 🌠
+👑 *ᏆΝҒϴ:-KING-PROMISE MD* 👑
 
 ╭───•••✧ᎠᎬᏙᎬᏞϴᏢᎬᎡ✧••••───╮
 ┃ *≡*. 
-│ ➫「 *ՏͲᎪᎡ-ᎷᎠ-Ꮩ2* 」
-│ ➫ *Name    :* Excel
+│ ➫「 *KING-PROMISE MD* 」
+│ ➫ *Name    :* Mayor
 │ ➫ *Place   :* Nigeria
 │ ➫ *Gender  :*  ᴍᴀʟᴇ
-│➫ *Age     :* _15
-│ ➫ *Phone   :* wa.me/2347045035241
+│➫ *Age     :* _19
+│ ➫ *Phone   :* wa.me/2349164717432
 │ ➫ *TT      :*  https://tiktok.com
-/@xcelsama
-│ ➫ *GitHub  :* https://github.com/Xcelsama
+│ ➫ *GitHub  :* https://github.com/Mayorpromise
 │ ➫ *TT *:- https://tiktok.com/@xcelsama
-│ ➫ *Channel* :https://whatsapp.com/
-channel/0029Va9wmuz8F2pGIURwmo0m
+│ ➫ *Channel* :https://whatsapp.com/channel/0029VabKDye3bbV4Fu13US2N
 │ ➫ *Status  :* ᎠᎬᏴႮᏀᏀᏆΝᏀ ᏟϴᎠᎬ._
 ┃ 
-┃© STAR-MD-V2 BY EXCEL
-⚡ *STATE* ⚡
+┃© KING-PROMISE MD BY MAYOR
+👑 *STATE* 👑
 ➫ *${groupsIn.length}* GROUP CHATS
 ➫  *${groupsIn.length}* united groups
 ➫  *${groupsIn.length - groupsIn.length}* abandoned groups
@@ -73,7 +71,7 @@ channel/0029Va9wmuz8F2pGIURwmo0m
 ➫  *${chats.length}* Total Chats
 
 
- *🕣 ＳＴＡＲ-ＳＥＲＶＥＲ*
+ *🕣 𝙺̷𝙸̷𝙽̷𝙶̷-𝙿̷𝚁̷𝙾̷𝙼̷𝙸̷𝚂̷𝙴̷ 𝚂̷𝙴̷𝚁̷𝚅̷𝙴̷𝚁̷*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
