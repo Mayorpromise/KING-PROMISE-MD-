@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
 
     let wabeta = `•───── ୨❀୧ ─────•
     ❖ 𝑺𝑻𝑨𝑻𝑼𝑺: Online... 
-    ㋡ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: EXCEL
+    ㋡ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: MAYOR
     ☞ 𝑵𝑬𝑾𝑺: ${json.news}
       •───── ୨❀୧ ─────•
     `;
