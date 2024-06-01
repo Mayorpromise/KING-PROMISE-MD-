@@ -16,7 +16,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 🏁| FLAG: ${data.country.emoji}
 🏦| BANK: ${data.bank.name}
 
-> *THANKS TO EXCEL (https://github.com/Xcelsama*
+> *THANKS TO MAYOR (https://github.com/Mayorpromise*
 `;
         m.reply(formattedResult.trim());
     }).catch(error => {
