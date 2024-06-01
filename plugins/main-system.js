@@ -53,21 +53,21 @@ let handler = async (m, { conn }) => {
   let user = global.db.data.users[who];
 
   try {
-    let repo_Data = await axios.get('https://api.github.com/repos/Xcelsama/STAR-MD-V2');
+    let repo_Data = await axios.get('https://api.github.com/repos/Mayorpromise/KING-PROMISE-MD-');
     let { stargazers_count, forks, owner, created_at, html_url } = repo_Data.data;
 
     let infobt = `
-🔰 *I'm STAR-V2.* *A WhatsApp Advanced bot with Rich Exciting features* *Created By Excel*. 🔰
+👑 *I'm KING-PROMISE MD.* *A WhatsApp Advanced bot with Rich Exciting features* *Created By Mayor*. 👑
 
  *✪  Stars:* ⭐stars ${stargazers_count} 
  *✪  Forks:* Forks 🍽 ${forks}  
- *✪  Author:*EXCEL AMADI* 😎
+ *✪  Author:*MAYOR PROMISE* 😎
  *✪  Deploy:*${created_at} 
  *✪  Repo:*  ${html_url}
- *✪  Scan:*  https://replit.com/@HopeAmadi*/STAR-MD-V2-PAIR-CODE?s=app
- *✪ Visit For Help:* https://wa.me/+2347045035241
+ *✪  Scan:*  https://replit.com/@mayorpromise66/KING-PROMISE-MD-V1-PAIR-CODE?s=apps
+ *✪ Visit For Help:* https://wa.me/+2349164717432
   
-🔰 *ƈʀɛǟȶɛɖ ႦႸ Excel* 🔰
+👑 *ƈʀɛǟȶɛɖ ႦႸ Mayor* 👑
 
 *🕣 S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
